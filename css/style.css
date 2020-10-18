@@ -1,0 +1,76 @@
+/* Stylesheet by Garrett Fuelling, 2020 */
+
+#map { 
+    height: 500px;
+    margin 15px; 
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#wrapper{
+    width:1000px;
+    margin: 15px auto;
+    border: 3px
+}
+
+h1{
+    text-align: center
+}
+
+#panel{
+    width: 16%;
+    padding: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+#slider{
+    width: 16%;
+    padding: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.legend-control-container{
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 2px;
+    line-height: 10px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.readings{
+    background-color:#F0F0F0;
+    border: 3px;
+    text-align: center
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.note {
+  margin-left: auto;
+  margin-right: auto;
+    font-size: 7px
+}
